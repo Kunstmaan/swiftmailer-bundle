@@ -1,5 +1,5 @@
 {
-    "name": "symfony/swiftmailer-bundle",
+    "name": "kunstmaan/swiftmailer-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SwiftmailerBundle",
     "keywords": [],
@@ -41,5 +41,8 @@
         "branch-alias": {
             "dev-main": "3.5-dev"
         }
+    },
+    "replace": {
+        "symfony/swiftmailer-bundle": "*"
     }
 }
